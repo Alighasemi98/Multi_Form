@@ -13,6 +13,7 @@ namespace Multi_forms
     public partial class PayForm : Form
     {
         SearchForm sf = new SearchForm();
+     
         public PayForm()
         {
             InitializeComponent();
@@ -28,6 +29,11 @@ namespace Multi_forms
         {
             sf.textBox1.Text = "";
             sf.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
