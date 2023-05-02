@@ -13,7 +13,7 @@ namespace Multi_forms
     public partial class PayForm : Form
     {
         SearchForm sf = new SearchForm();
-     
+        public Form1 Form1;
         public PayForm()
         {
             InitializeComponent();
@@ -33,7 +33,12 @@ namespace Multi_forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            string name = textBox1.Text;
+            string money = textBox2.Text;    
+            Form1.listBox1.Items.Add("شماره دانش جویی :" + " " + name + " " + "به مبلغ :" + " " + money+ "پرداخت گردید  ");
+            this.Hide();
+            textBox1.Clear();
+            textBox2.Clear();
         }
     }
 }

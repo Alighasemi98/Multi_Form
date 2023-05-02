@@ -16,12 +16,17 @@ namespace Multi_forms
         public Form1()
         {
             InitializeComponent();
+            pf.Form1 = this;
+           
         }
 
         PayForm pf = new PayForm();
+       
         private void button1_Click(object sender, EventArgs e)
         {
             pf.Show();
         }
+
+        
     }
 }

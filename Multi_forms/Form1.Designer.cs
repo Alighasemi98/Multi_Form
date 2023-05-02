@@ -35,10 +35,10 @@ namespace Multi_forms
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(277, 12);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(374, 12);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 79);
+            this.button1.Size = new System.Drawing.Size(124, 67);
             this.button1.TabIndex = 0;
             this.button1.Text = "پرداخت شهریه";
             this.button1.UseVisualStyleBackColor = true;
@@ -49,17 +49,17 @@ namespace Multi_forms
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(12, 12);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(245, 134);
+            this.listBox1.Size = new System.Drawing.Size(357, 134);
             this.listBox1.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(404, 166);
+            this.ClientSize = new System.Drawing.Size(509, 166);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

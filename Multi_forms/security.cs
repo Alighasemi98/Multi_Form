@@ -16,7 +16,7 @@ namespace Multi_forms
         {
             InitializeComponent();
         }
-
+        
         Form1 f = new Form1();
         private void button1_Click(object sender, EventArgs e)
         {
